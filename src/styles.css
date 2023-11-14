@@ -10,6 +10,22 @@ html {
   overflow: hidden;
 }
 
+body {
+  cursor: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.cursor {
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+}
+
 h1 {
   text-align: center;
   font-size: 90px;
