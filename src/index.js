@@ -4,10 +4,7 @@ const startButton = document.querySelector('#start');
 const score = document.querySelector('#score'); // Use querySelector() to get the score element
 const timerDisplay = document.querySelector('#timer'); // use querySelector() to get the timer element.
 
-// const hammeringSound = new Audio("assets/bubleForHit.mp3");
-// const hammerSound = new Audio("assets/hit.mp3");
-const hammerSound = new Audio("https://github.com/gabrielsanchez/erddiagram/blob/main/hit.mp3?raw=true");
-// const hammerSound = document.querySelector('#audio');
+const hammerSound = new Audio("https://github.com/sedo-swe/js-dev-final-capstone-starter-whack-a-mole/blob/main/assets/bubleForHit.mp3?raw=true");
 const hammerCursor = document.querySelector('#hammer');
 
 let time = 0;
